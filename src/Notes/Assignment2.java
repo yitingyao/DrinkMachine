@@ -2,6 +2,7 @@ package Notes;
 
 /*
  *Student Name: Yiting Yao
+ *Student Number: 041-035-917
  *Lab Professor: Professor Mel Sanschagrin
  *Due Date: Nov 19, 2021
  *Description: Assignment 2 (Fall 21)
