@@ -1,10 +1,5 @@
 package Notes;
-/*
- *Student Name: Yiting Yao
- *Lab Professor: Professor Mel Sanschagrin
- *Due Date: Nov 19, 2021
- *Description: Assignment 2 (Fall 21)
- */
+
 public class DrinkMachinePersonal {
 	public static final String SMALL = "small"; // static var belongs to class, all objects of this class share static
 												// variable
@@ -83,12 +78,12 @@ public class DrinkMachinePersonal {
 		// then use EPSILON to determine if the expected volume, and
 		// actual volume are "close enough", then return a string
 		// as a report. E.g.
-//E.g. 
-//"size is small, volume is 255.0 ml, difference is 5.0 ml, within tolerance of 10.0 ml "
-//E.g. 
-//"size is medium, volume is 389.0 ml, difference is 11.0 ml, outside of tolerance of 10.0 ml"
-//E.g.
-//"size is tuna, volume is -45, difference is 0.0 ml, invalid size or volume input"
+		//E.g. 
+		//"size is small, volume is 255.0 ml, difference is 5.0 ml, within tolerance of 10.0 ml "
+		//E.g. 
+		//"size is medium, volume is 389.0 ml, difference is 11.0 ml, outside of tolerance of 10.0 ml"
+		//E.g.
+		//"size is tuna, volume is -45, difference is 0.0 ml, invalid size or volume input"
 		// You can use any decision structure you want.
 		// You must use String.format(String, , , ) to generate the report.
 		// Tip: See drinkSizeMenu() below for an example of String.format
@@ -100,8 +95,8 @@ public class DrinkMachinePersonal {
 	public String drinkSizeMenu() {
 		String report = String.format(
 				"Drink sizes:%n%s is %.1f (ml)%n%s is %.1f (ml)%n%s is %.1f (ml)%ndrink sizes are case-sensitive",
-				DrinkMachinePersonal.SMALL, DrinkMachinePersonal.SMALL_VOLUME, DrinkMachinePersonal.MEDIUM, DrinkMachinePersonal.MEDIUM_VOLUME,
-				DrinkMachinePersonal.LARGE, DrinkMachinePersonal.LARGE_VOLUME);
+				DrinkMachinePersonal.SMALL, DrinkMachinePersonal.SMALL_VOLUME, DrinkMachinePersonal.MEDIUM,
+				DrinkMachinePersonal.MEDIUM_VOLUME, DrinkMachinePersonal.LARGE, DrinkMachinePersonal.LARGE_VOLUME);
 
 		return report;
 	}
